@@ -9,6 +9,5 @@ let package = Package(
     targets: [
         .target(name: "SwiftyJSON", dependencies: []),
         .testTarget(name: "SwiftJSONTests", dependencies: ["SwiftyJSON"])
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )
